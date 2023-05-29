@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .especial{
+            background-color: rgba(255, 0, 0, 0.205);
+        }
+
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/DeividsonHenrique" target="_blank">Repositorio GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/deividson-henrique-03654a16b/" target="_blank">linkedin</a></li>
+        <li><a href="https://www.youtube.com/channel/UC0vkaeSMEZcomfU3kVehrbQ" target="_blank" class="especial">Youtube</a></li>
+    </ul>
+</body>
+</html>

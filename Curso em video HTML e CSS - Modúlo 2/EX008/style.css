@@ -1,0 +1,51 @@
+@charset 'UTF-8';
+@import url(fontes/idroid.otf);
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: idroid, sans-serif;
+    background-color: greenyellow;
+}
+
+header{
+    margin: 0px;
+    padding: 20px;
+    background-color: green;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+}
+
+header p{
+    margin-top:10px; ;
+    text-align: center;
+}
+
+.menu{
+    display:flex;
+    justify-content: start;
+    
+}
+
+.menu a{
+    margin: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+/*---------------------------------END HEADER--------------------------------- */
+
+main{
+    margin: 0px 210px;
+    text-align: center;
+    background-color: white;
+}
+
+section p{
+    
+}
