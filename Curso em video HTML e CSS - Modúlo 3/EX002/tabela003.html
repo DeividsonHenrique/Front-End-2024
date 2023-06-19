@@ -3,52 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
+    <title>tabelas</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
+
         }
 
         table{
-            width: 400px;
-            height: 400px;
             border-collapse: collapse;
-        }
-        table td{
-            border: 1px solid black;
-            padding: 8px;
-            text-align: center;
-            vertical-align: middle;
+            width: 300px;
         }
 
-       td:hover{
-        background-color: goldenrod;
-       }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <h1>Minha primeira Tabela</h1>
+    <h1>Mesclagem de celulas</h1>
     <table>
         <tr>
-            <td>a1</td>
-            <td>b1</td>
-            <td>c1</td>
+            <td>A</td>
+            <td  colspan="2">B</td>
+            
         </tr>
         <tr>
-            <td>a2</td>
-            <td>b2</td>
-            <td>c2</td>
+            <td rowspan="3">D</td>
+            <td>E</td>
+            <td rowspan="2">F</td>
         </tr>
         <tr>
-            <td>a3</td>
-            <td>b3</td>
-            <td>c3</td>
+            
+            <td>H</td>
+            
         </tr>
         <tr>
-            <td>a4</td>
-            <td>b4</td>
-            <td>c4</td>
+            
+            
+            <td colspan="2">L</td>
         </tr>
+        
     </table>
 </body>
 </html>
