@@ -1,0 +1,22 @@
+.example{
+    color: white;
+    text-align: center;
+}
+
+.example-item{
+    display: block;
+    width: 33.333%;
+    height: 150px;
+}
+
+.example-item_first{
+    background-color: #faa116;
+}
+.example-item_second{
+    background-color: #57c7c3;
+    margin-left: auto;
+}
+.example-item_third{
+    background-color: #3897d3;
+    margin: auto;
+}
