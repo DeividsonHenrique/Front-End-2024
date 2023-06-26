@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+body > h1{
+    text-align: center;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.267);
+    margin: 0px 0px -50px 0px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.315);
+    font-size: 2.6em;
+    font-weight: bold;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.349);
+    border-radius: 0px;
+}
+
+main{
+    width: 85vw;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    margin: auto;
+    box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.247);
+    border-radius: 5px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 0px;
+    margin: 70px;
+}
+
+
+div.content__item{
+    margin: auto;
+    width: 350px;
+    height: 500px;
+    background-color: #661818;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: .6s;
+}
+
+div.content__item > span{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: .5s;
+}
+
+div.content__item > span:hover{
+    text-shadow: 1px 1px 10px white;
+    font-size: 2em;
+}
+
+div.content__item:hover{
+    box-shadow: 1px 1px 10px 10px rgba(255, 255, 255, 0.432);
+    transform: scale(1.01);
+}
+
+
+ div.content__item:nth-child(1){
+    /* background-image: url(image/Portartil-1.jpg); */
+    background-image: url(https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.content__item:nth-child(2){
+    /* background-image: url(image/Portartil-8.jpg); */
+    background-image: url(https://images.pexels.com/photos/2374795/pexels-photo-2374795.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+div.content__item:nth-child(3){
+    /* background-image: url(image/Portartil-3.jpg); */
+    background-image: url(https://images.pexels.com/photos/2668498/pexels-photo-2668498.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+div.content__item:nth-child(4){
+    /* background-image: url(image/Portartil-4.jpg); */
+    background-image: url(https://images.pexels.com/photos/1684151/pexels-photo-1684151.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+div.content__item:nth-child(5){
+    /* background-image: url(image/Retratil-1.jpg); */
+    background-image: url(https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    grid-column: span 2;
+    width: 720px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.content__item:nth-child(6){
+    /* background-image: url(image/Portartil-5.jpg); */
+    background-image: url(https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.content__item:nth-child(7){
+    /* background-image: url(image/Portartil-6.jpg); */
+    background-image: url(https://images.pexels.com/photos/1907071/pexels-photo-1907071.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+div.content__item:nth-child(8){
+    /* background-image: url(image/Portartil-7.jpg); */
+    background-image: url(https://images.pexels.com/photos/3749174/pexels-photo-3749174.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.content__item:nth-child(9){
+    /* background-image: url(image/Retratil-4.jpg); */
+    background-image: url(https://images.pexels.com/photos/4264047/pexels-photo-4264047.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    grid-column: span 2;
+    width: 720px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+
+div.content__item:nth-child(10){
+    /* background-image: url(image/Portartil-2.jpg); */
+    background-image: url(https://images.pexels.com/photos/122370/pexels-photo-122370.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+div.content__item:nth-child(11){
+    /* background-image: url(image/Retratil-2.jpg); */
+    background-image: url(https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    grid-column: span 2;
+    width: 720px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+div.content__item:nth-child(12){
+    /* background-image: url(image/Retratil-3.jpg); */
+    background-image: url(https://images.pexels.com/photos/1752806/pexels-photo-1752806.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    grid-column: span 2;
+    width: 720px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+div.content__item:nth-child(13){
+    /* background-image: url(image/Retratil-3.jpg); */
+    background-image: url(https://images.pexels.com/photos/291539/pexels-photo-291539.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-size: cover;
+    grid-column: span 4;
+    width: 98%;
+    background-repeat: no-repeat;
+    background-position: center -350px;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer > h1{
+    text-align: center;
+    font-family: monospace;
+}
+
+footer > p{
+    text-align: center;
+    margin: 10px;
+}
+
+footer > p > a{
+    padding: 5px;
+    text-decoration: none;
+    color: wheat;
+    transition: .9s;
+}
+footer > p > a:hover{
+    padding: 5px;
+    text-decoration: underline;
+    color: aqua;
+}
+
+nav.menupe{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+
+nav.menupe > a{
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 10px 0px 5px;
+}
+
+
+nav.menupe > a::after{
+    content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 52%;
+  width: 0;
+  height: 2px;
+  background-color: wheat;
+  transform: translateX(-50%);
+  transition: width 0.3s ease-in-out;
+}
+
+nav.menupe > a:hover::after{
+    width: calc(90% + 4px);
+}
+
+
+
+nav.menupe a > i{
+    color: white;
+    padding: 5px;
+    transition: .5s;
+}
+
+nav.menupe a > i:hover{
+    color: aqua;
+}
+
+
