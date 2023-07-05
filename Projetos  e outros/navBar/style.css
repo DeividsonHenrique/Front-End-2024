@@ -89,6 +89,7 @@ header{
     position: absolute;
     right: 2rem;
     top: 60px;
+    height: 0;
     width: 300px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
@@ -114,6 +115,25 @@ header{
     justify-content: center;
 }
 
+/* Hero */
+section#hero{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero p{
+    text-align: center;
+}
+
 /*Responsive design*/
 
 @media(max-width: 992px){
@@ -127,5 +147,13 @@ header{
 
     .dropdown_menu{
         display: block;
+    }
+}
+
+
+@media(max-width: 576px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
     }
 }
