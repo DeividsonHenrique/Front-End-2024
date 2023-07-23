@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h2>LOGIN</h2>
+            <form action="#" method="post" autocomplete="off">
+                <p class="email">
+                    <label for="iemail">Email:</label>
+                    <input type="text" name="email" id="iemail">
+                </p>
+
+                <p class="senha">
+                    <label for="isenha">Senha:</label>
+                    <input type="password" name="senha" id="isenha">
+                    <button class="hidde" id="mostrarSenha" type="button"><i class="fa-solid fa-eye"></i></button>
+                </p>
+
+                <a href="#">Esqueci minha senha</a>
+
+                <input class="btn1" type="button" value="Entrar">
+
+                <input class="btn2" type="button" value="Cadastrar">
+            </form>
+        </div>
+    </main>
+    <script>
+        const botaoMostrarSenha = document.getElementById('mostrarSenha');
+const campoSenha = document.getElementById('isenha');
+
+botaoMostrarSenha.addEventListener('click', function () {
+  if (campoSenha.type === 'password') {
+    campoSenha.type = 'text';
+  } else {
+    campoSenha.type = 'password';
+  }
+});
+    </script>
+</body>
+</html>
