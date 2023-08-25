@@ -62,24 +62,208 @@
 
 
 @media screen and (min-width:1500px) {
+    h1{
+        text-align: center;
+    }
+    
     main{
-        width: 1498px;
+        height: 220vh;
+        width: 1300px;
+        margin: 0 auto;
+        background-color: antiquewhite;
+        padding: 5px;
+        border-radius: 10px;
+    
+        transition: width .3s, height .3s ease;
     }
-
+    
     main > #imagens{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, 300px);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-template-rows: repeat(5, 250px);
+        gap: 10px;
+        height: 99%;
+        margin: 10px 20px;
+        background-color: white;
+        border-radius: 10px;
+    
+        
     }
-
+    
     #imagens > .photo{
-        width: 450px;
-        height: 550px;
+        position: relative;
+        background-color: black;
+        height: 500px;
+        width: 400px;
+        margin: 5px;
+        color: white;
+        border-radius: 10px;
+        opacity: 100%;
+    
+        transition: width .3s, height .3s ease;
     }
-
-   
-    #imagens > .photo:nth-child(3){
-        grid-row: 9;
+    
+    
+    #imagens > .photo:hover{
+        box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.3);
+        transform: scale(1.01);
+    }
+    
+    
+    
+    #imagens > .photo > span{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.6em;
+        text-align: end;
+        color: rgba(0, 0, 0, 0.774);
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        opacity: 0;
+    
+        transition: opacity 0.3s;
+    }
+    
+    
+    #imagens > .photo:hover span{
+        opacity: 1;
+        transition: .3s;
+    }
+    
+    #imagens > .photo > span:hover{
+        cursor: pointer;
+        opacity: 80%;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.7);
+        transform: translate(2px, -2px);
+        
+    }
+        
+    
+    #imagens > .photo > span:nth-child(1){
+        position: absolute;
+        left: 60%;
+        top: 3%;
+    }
+    #imagens > .photo > span:nth-child(2){
+        position: absolute;
+        left: 80%;
+        top: 3%;
+    
+    }
+    #imagens > .photo > span:nth-child(3){
+        position: absolute;
+        left: 80%;
+        top:86%;
     }
     
 
+
+    /* -------------------------------------------imagens ------------------------------------------------------ */
+
+
+    #imagens > .photo:nth-child(1){
+        background-image: url(https://images.pexels.com/photos/14111067/pexels-photo-14111067.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    
+    #imagens > .photo:nth-child(2){
+        background: url(https://images.pexels.com/photos/9571268/pexels-photo-9571268.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    #imagens > .photo:nth-child(3){
+        background: url(https://images.pexels.com/photos/8717989/pexels-photo-8717989.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;    
+        grid-column:2;
+        grid-row: 6;
+        width:400px;
+        height: 500px;
+    }
+    
+    #imagens > .photo:nth-child(4){
+        background-image: url(https://images.pexels.com/photos/13555353/pexels-photo-13555353.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+        background-position: center center;
+        background-repeat: no-repeat;   
+        height: 600px;  
+    }
+
+    
+    
+    #imagens > .photo:nth-child(5){
+        background-image: url(https://images.pexels.com/photos/11278592/pexels-photo-11278592.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-column: 2;
+        grid-row: span 3;
+        height: 550px;
+    }
+
+    #imagens > .photo:nth-child(6){
+        background: url(https://images.pexels.com/photos/8021289/pexels-photo-8021289.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-column: 3;
+        grid-row: span 3;
+        height: 660px;
+    }
+    
+    #imagens > .photo:nth-child(7){
+        background-image: url(https://images.pexels.com/photos/16643017/pexels-photo-16643017/free-photo-of-animal-bicho-gato-animal-de-estimacao.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-row: 3;
+        grid-column: 1;
+        
+    }
+    
+    
+    #imagens > .photo:nth-child(8){
+        background: url(https://images.pexels.com/photos/8912074/pexels-photo-8912074.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-column: 1;
+        grid-row: 5;
+        height: 555px;
+    }
+    
+    #imagens > .photo:nth-child(9){
+        background-image: url(https://images.pexels.com/photos/5288818/pexels-photo-5288818.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-column: 3;
+        grid-row: 6;
+        height: 670px;
+    }
+    
+    
+    #imagens > .photo:nth-child(10){
+        background: url(https://images.pexels.com/photos/16660338/pexels-photo-16660338/free-photo-of-papel-de-parede-4k-wallpaper-4k-arquitetura-fundo.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+        background-position: center calc(60%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-column: span 2;
+        grid-row: 7;
+        width: 820px;
+        height: 350px;
+        margin-top: -370px;
+    }
 }
