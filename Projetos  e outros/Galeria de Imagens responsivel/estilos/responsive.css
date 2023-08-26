@@ -62,6 +62,90 @@
 
 
 @media screen and (min-width:1500px) {
+
+    header {
+        width: 99vw;
+        height: 500px;
+        background-image: url(https://images6.alphacoders.com/129/1295574.png);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        color: white;
+    }
+
+    header > #menu{
+        width: 98vw;
+    }
+
+    header > #menu > .logo{
+        
+        background-image: url(../Gold\ Luxury\ Business\ Logo1.png);
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+        margin-left: 150px;
+        margin-bottom: -70px;
+    }
+
+    header > #menu > .nav{
+        margin: 0px 200px 0px 0px;
+    }
+
+    header > #menu > .nav > ul{
+        display: flex;
+        justify-content: end;        
+        margin-top: -50px;
+        
+    }
+
+    header > #menu > .nav > ul > li{
+        display: block;
+        padding: 0px 10px;
+        
+    }
+
+    header > #menu > .nav > ul > li > a{
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        transition: .3s ease;
+    }       
+
+    header > #menu > .nav > ul > li > a:hover{
+        opacity: 80%;
+    }
+
+
+    header > #menu > .nav > ul > li:last-child{
+        height: 50px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        margin-top: -15px;
+        border-radius: 5px;
+        margin-left: 10px;
+        padding: 0px 20px;
+        transition: .3s;
+    }
+
+    header > #menu > .nav > ul > li > .rgt:last-child{
+        background-color: white;
+        color: black;
+        opacity: 1;
+        font-weight: 600;
+        font-size: 1em;
+    }
+
+    header > #menu > .nav > ul > li:last-child:hover{
+        cursor: pointer;
+        box-shadow: inset 0px 0px 2px black;
+    }
+
+
     h1{
         text-align: center;
     }
