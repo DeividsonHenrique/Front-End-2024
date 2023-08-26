@@ -144,6 +144,87 @@
         cursor: pointer;
         box-shadow: inset 0px 0px 2px black;
     }
+/* ------------------------------------------------------End Menu----------------------------------------------- */
+
+    header > #text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        
+    }
+
+    header > #text > .text{
+        display: block;
+        width: 650px;
+        height: 300px;
+
+    }
+
+
+    .text > h1{
+        font-size: 1.9em;
+        text-align: justify;
+    }
+
+    .text > form > input{
+        width: 100%;
+        height: 50px;
+        margin-top: 26px;
+        border-radius: 10px;
+        font-size: 1.2em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+
+    .text > form > label{
+        position: relative;
+    }
+
+    .text > form > label > span{
+        position: absolute;
+        top: -10px;
+        right: 10px;
+        font-size: 36px;
+        opacity: 50%;
+        color: black;
+        cursor: pointer;
+    }
+
+    ol.trend{
+        display: block;
+        margin-top: 40px;
+    }
+
+    ol.trend > p{
+        display: inline-block;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 80%;
+    }
+
+    ol.trend > li{
+        list-style: none;
+        display: inline-block;
+    }
+
+    ol.trend > li > a{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        color: white;
+
+        transition: .3s;
+    } 
+
+    ol.trend > li > a:hover{
+        opacity: 80%;
+    }
+
+
+
+
+
 
 
     h1{
