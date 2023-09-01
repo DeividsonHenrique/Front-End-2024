@@ -301,9 +301,11 @@ header .back {
       
   }
 
+  /*---------------------------------------footer--------------------------------------------------*/
+
 
   footer{
-    background-color: black;
+    background-color: #333;
     height: 300px;
-    width: 99.1vw;
+    width: 100%;
   }
