@@ -153,6 +153,11 @@ header .back {
     font-size: 1.7em;
   }
 
+
+  .mobile{
+    display: none;
+  }
+
   /* Parte final do menu */
 
 
