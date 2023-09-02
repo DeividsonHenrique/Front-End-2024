@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:500px) and (max-width:655px){
+    header .menu li{
+        display: none;
+    }
+
+    #int span > .ft{
+        display: none;
+    }
+
+    .menu > ul > #si{
+        display: block;
+        padding: 10px 0px;
+        margin-top: -30px;
+        margin-right: 40px;
+    }
+
+    .menu span{
+        display: block;
+        position: absolute;
+        top: 27px;
+        right: 30px;
+        cursor: pointer;
+
+        transition: .3s;
+    }
+
+    .menu span:hover{
+        opacity: 85%;
+    }
+
+    .logo1{
+        top: 5px;
+        left: 5px;
+        transform: scale(.8);
+        transition: .2s;
+    }
+
+    .logo1:hover{
+        transform: scale(.8);
+    }
+
+    .logo1 p{
+        display: none;
+    }
+
+    #int{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #int h1{
+        text-align: start;
+        margin-top: 40px;
+        text-indent: 0;
+    }
+
+    #int .trend p, a{
+        font-size: .9em;
+    }
+
+    #int span:last-child{
+        left: 90%;
+    }
+    
+    section.gallery{
+        width: 95%;
+        column-count: 2;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:655px) and (max-width:900px) {
+    header .menu li{
+        display: none;
+    }
+
+    .menu > ul > #si{
+        display: block;
+        margin-top: -30px;
+        margin-right: 40px;
+    }
+
+    .menu span{
+        display: block;
+        position: absolute;
+        top: 27px;
+        right: 30px;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    .menu span:hover{
+        opacity: 85%;
+    }
+
+    .logo1{
+        left: 20px;
+        transform: scale(.8);
+        transition: .2s;
+    }
+
+    .logo1:hover{
+        transform: scale(.8);
+    }
+
+    .logo1 p{
+        display: none;
+    }
+
+    #int{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #int h1{
+        text-align: start;
+        margin-top: 40px;
+        text-indent: 0;
+    }
+
+    #int .trend p, a{
+        font-size: 1em;
+    }
+
+    
+
+    
+    section.gallery{
+        width: 95%;
+        column-count: 2;
+    }
+}

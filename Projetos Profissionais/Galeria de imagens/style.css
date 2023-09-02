@@ -124,7 +124,7 @@ header .back {
     transform: scaleX(1); /* Aumenta a largura */
   }
 
-  .menu > ul > #si:last-child{
+  .menu > ul > #si{
     background-color: white;
     padding: 15px 0px;
     border-radius: 10px;
@@ -137,7 +137,7 @@ header .back {
     box-shadow: inset 0px 0px 5px 3px rgba(0, 0, 0, 0.150);
   }
 
-  .menu > ul > li > .si:last-child{
+  .menu > ul > li > .si{
     opacity: 100%;
     padding: 15px 0px;
     color: black;
@@ -145,6 +145,12 @@ header .back {
 
   .menu > ul > li > .si::before{
     transform: scaleX(0);
+  }
+
+  .menu span{
+    display: none;
+    color: white;
+    font-size: 1.7em;
   }
 
   /* Parte final do menu */
@@ -305,7 +311,134 @@ header .back {
 
 
   footer{
-    background-color: #333;
+    background-color: black;
     height: 300px;
     width: 100%;
+    color: white;
   }
+
+  footer h1{
+    text-align: center;
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+  }
+
+  footer h2{
+    text-align: end;
+    font-size: .8em;
+    margin-right: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+  }
+
+  footer h2 a{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.3em;
+
+    transition: .3s ease;
+  }
+
+  footer h2 a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    transform-origin: center;
+    transform: scaleX(0);
+    background-color: white;
+
+    transition: transform .3s;
+  }
+
+  footer h2 a:hover{
+    opacity: 80%;
+  }
+
+  footer h2 a:hover::before{
+    transform: scaleX(1);
+  }
+
+  .pe{
+    position: relative;
+  }
+
+  .pe .logope{
+    position: absolute;
+    left: 50px;
+    top: -50px;
+    background-image: url(https://images6.alphacoders.com/118/1189509.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    cursor: pointer;
+    opacity: 70%;
+
+    transition: .3s ease-out;
+  }
+
+  .logope:hover{
+    opacity: 90%;
+    transform: translate(5px);
+}
+
+.logope p{
+  position: absolute;
+  top: 35%;
+  left: 80px;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: white;
+}
+
+.pe nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pe nav a{
+  margin: 0px 1px;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  padding: 20px;
+
+  transition: .3s;
+}
+
+.pe nav a i{
+  margin: 0px 5px;
+}
+
+.pe nav a:hover{
+  opacity: 80%;
+  transform: translate(2px, -1px);
+}
+
+.data{
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+abbr{
+  text-decoration: none;
+}
+
+
