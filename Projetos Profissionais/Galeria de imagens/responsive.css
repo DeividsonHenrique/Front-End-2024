@@ -162,3 +162,10 @@
         column-count: 2;
     }
 }
+
+
+@media screen and (min-width:901px){
+    .logo1{
+        top: 25px;
+    }
+}
