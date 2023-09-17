@@ -1,0 +1,31 @@
+*{
+    background-color: #333;
+}
+
+.text{
+    position: absolute;
+    top: 40px;
+    height: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+    0 0 15px #fff,
+    0 0 25px #fff;
+    transform-origin: bottom;
+    animation: animate 2s linear forwards;
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(0); scale: (1);
+    }
+
+    70%{
+        transform: translateY(290px); scale: (1);
+    }
+
+    100%{
+        transform: translateY(290px); scale: (0);
+    }
+}
