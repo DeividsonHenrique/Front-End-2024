@@ -68,7 +68,7 @@ header nav > a::before{
     background-color: white;
     color: white;
 
-    transition: transform .3s;
+    transition: transform .4s;
 }
 
 header nav > a:hover::before{
