@@ -30,7 +30,7 @@ header{
     font-weight: bold;
     color: white;
 
-    transition: opacity .3s;
+    transition: opacity .4s;
 }
 
 .logo:hover{
