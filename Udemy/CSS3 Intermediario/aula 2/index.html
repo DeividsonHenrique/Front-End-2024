@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos flutuantes</title>
+    <style>
+        body{
+            width: 99%;
+        }
+
+         #principal{
+            border: 1px solid red;
+            background-color: green;
+            
+        } 
+
+        .conteudo{
+            background: blue;
+            border: 1px solid gray;
+            width: 150px;
+            height: 150px;
+            float: right;
+            margin: 10px;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+            /* .conteudo-zero{
+            background: red;
+            border: 1px solid gray;
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+        }      */
+
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <div class="conteudo">
+            conteúdo
+        </div>
+        <div class="conteudo">
+            conteúdo2
+        </div>
+        <div class="conteudo">
+            conteúdo3
+        </div>
+
+        <p class="clear">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magni illum quod? Voluptatum commodi suscipit, perspiciatis, a, beatae repudiandae assumenda corporis sapiente rerum sint facere libero provident? Debitis, vel minima. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut placeat officia maxime odit, itaque iusto voluptatem aperiam laudantium dolor labore perspiciatis esse at vero distinctio consectetur, praesentium ad provident inventore. lo\
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est consectetur, voluptates delectus enim accusantium maxime a qui tenetur maiores. Commodi provident iusto dicta amet laudantium dolorum. Commodi excepturi beatae accusantium!
+        </p>
+
+        <!-- <div class="clear"></div> -->
+
+    </div>
+</body>
+</html>
