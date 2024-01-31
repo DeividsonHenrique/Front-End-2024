@@ -1,0 +1,143 @@
+/* ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding: 5px 20px;
+    background: url(Imagens/seta.png) no-repeat left center;
+} */
+
+/* 
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+ul a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: #f7b600 url(Imagens/menu.png) no-repeat;
+    
+    transition: .2s ease-in-out;
+}
+
+ul a:hover{
+    background-position: right;
+    background-color: #f99200;
+    color: white;
+}
+
+#home #nav .home a,
+#sobre #nav .sobre a,
+#servicos #nav .servicos a,
+#noticias #nav .noticias a,
+#contato #nav .contato a{
+    background-position: right;
+    background-color: #f99200;
+    color: white;
+} 
+*/
+
+
+/* Navegação Horizontal */
+
+/* 
+ul{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url(Imagens/fundo-horizontal.png) repeat-x;
+    float: left;
+    
+}
+
+ul li{
+    float: left;
+    
+}
+
+ul a{
+    text-decoration: none;
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    color: white;
+    background: url(Imagens/divisor.png) repeat-y;
+    transition: .3s;
+}
+
+ul .primeiro a{
+    background: none;
+}
+
+ul a:hover{
+    color: #085662;
+    background: #44cade;
+}
+
+
+#home #nav .home a,
+#sobre #nav .sobre a,
+#servicos #nav .servicos a,
+#noticias #nav .noticias a,
+#contato #nav .contato a{
+    background-position: right;
+    color: #085662;
+    background: #44cade;
+}  
+*/
+
+
+/* Navegação com abas */
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+}
+
+ul li{
+    
+    float: left;
+    background: url(Imagens/aba-direita.png) no-repeat top right;
+}
+
+li a{
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url(Imagens/aba-esquerda.png) no-repeat top left;
+    color: white;
+
+    transition: .3s;
+}
+
+ul a:hover{
+    color: #894a1f;
+}
+
+ul .atual{
+    background: url(Imagens/aba-direita-atual.png) no-repeat top right;
+}
+
+ul .atual a{
+    background: url(Imagens/aba-esquerda-atual.png) no-repeat top left;
+}
