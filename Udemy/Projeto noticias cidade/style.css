@@ -81,25 +81,116 @@ body.Fotos #nav a#Fotos{
     margin-top: 60px;
 }
 
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
 #primario{
     width: 270px;
-    background: blue;
     float: left;
     margin: 0 0 20px 195px;
 }
 
+
+#duas-colunas #primario{
+    width: 555px;
+}
+
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
 #secundario{
     width: 270px;
-    background: green;
     float: left;
     margin: 0 0 20px 15px;
 }
 
-#lateral{
-    width: 180px;
-    background: yellow;
-    float: left;
-    margin: 0 0 20px -750px;
+.caixa{
+    margin: 10px 0px;
+    padding: 5px 0 5px 0;
+    background: #f3f3f3 url(imagens/fundo-caixa.png);
+}
+
+h2{
+    font-size: 1em;
+    color: #fff;
+    background: #294c71;
+    padding: 5px;
+
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Formatar menu lateral */
+
+#lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: #f3f3f3;
+
+    transition: .1s ease-in;
+}
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+
+/* Imagens  */
+
+img.imagem-principal{
+    width: 90%;
+    border: 3px solid #dfdfdf;
+}
+
+/* Cabeçalho */
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background: #de003e;
 }
 
 /* Rodape */
