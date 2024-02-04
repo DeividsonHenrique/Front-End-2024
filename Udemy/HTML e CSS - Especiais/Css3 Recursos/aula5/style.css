@@ -1,0 +1,29 @@
+
+@keyframes animacao-caixa{
+    from{
+        background: url(https://images.pexels.com/photos/1474157/pexels-photo-1474157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    }
+    to{
+        background: url(https://images.pexels.com/photos/4679125/pexels-photo-4679125.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load) no-repeat center center;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+    animation-name: animacao-caixa;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
