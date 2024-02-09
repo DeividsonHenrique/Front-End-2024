@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - listas</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="margin-bottom: 200px;padding: 16px;">
+
+        <!-- Listas -->
+        <ul class="list-group">
+            <li class="list-group-item">Meu item de lista 1</li>
+            <li class="list-group-item active">Meu item de lista 2</li>
+            <li class="list-group-item">Meu item de lista 3</li>
+            <li class="list-group-item">Meu item de lista 4</li>
+        </ul>
+        <br><br>
+    
+        <!-- Listas com classe flush -->
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Meu item de lista 1</li>
+            <li class="list-group-item">Meu item de lista 2</li>
+            <li class="list-group-item">Meu item de lista 3</li>
+            <li class="list-group-item active">Meu item de lista 4</li>
+        </ul>
+        <br><br>
+    
+        <!-- Listas com links -->
+        <ul class="list-group">
+            <a class="list-group-item" href="#">Meu item de lista 1</a>
+            <a class="list-group-item" href="#">Meu item de lista 2</a>
+            <a class="list-group-item" href="#">Meu item de lista 3</a>
+            <a class="list-group-item active" href="#">Meu item de lista 4</a>
+        </ul>
+        <br><br>
+    
+        <!-- Listas com classes contextuais 
+            classe: list-group-item-<opcoes>
+            opções: primary, secondary, success, info,
+                    warning, danger, light, dark
+        -->
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-primary">Lista normal</li>
+            <li class="list-group-item list-group-item-dark">Lista primary</li>
+            <li class="list-group-item list-group-item-info">Lista secondary</li>
+            <li class="list-group-item list-group-item-secondary">Lista success</li>
+            <li class="list-group-item list-group-item-danger">Lista info</li>
+            <li class="list-group-item list-group-item-warning
+            ">Lista warning</li>
+            <li class="list-group-item list-group-item-light">Lista danger</li>
+            <li class="list-group-item list-group-item-success">Lista light</li>
+            <li class="list-group-item">Lista dark</li>
+        </ul>
+        <br><br>
+    
+        <!-- Badge 
+            classe: bg-<opcoes>
+            opções: primary, secondary, success, info,
+                    warning, danger, light, dark
+        -->
+        <ul class="list-group">
+            <li class="list-group-item">Meu item de lista 1</li>
+            <li class="list-group-item">Meu item de lista 2</li>
+            <li class="list-group-item">
+                caixa de entrada
+                <span class="badge bg-success">120</span></li>
+            <li class="list-group-item">
+                Rascunhos
+                <span class="badge bg-warning">05</span>
+            </li>
+        </ul>
+        <br><br>
+    
+        <!-- Breadcrumb -->
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">Home</li>
+        </ol>
+    
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="">Home</a>
+            </li>
+            <li class="breadcrumb-item active">Notícias</li>
+        </ol>
+    
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Usuários</a>
+            </li>
+            <li class="breadcrumb-item active">Jamilton Damasceno</li>
+        </ol>
+        <br><br>
+    
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
