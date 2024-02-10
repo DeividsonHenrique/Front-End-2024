@@ -1,0 +1,190 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap'); /*  font-family: 'Young Serif', serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap'); /*  font-family: 'Outfit', sans-serif;  */
+
+:root{
+    --cor1-White:hsl(0, 0%, 100%);
+    --cor2-RoseWhite:hsl(330, 100%, 98%);
+    --cor3-Eggshell:hsl(30, 54%, 90%);
+    --cor4-Light-Grey:hsl(30, 18%, 87%);
+    --cor5-Wenge-Brown:hsl(30, 10%, 34%);
+    --cor6-Dark-Charcoal:hsl(24, 5%, 18%);
+
+    --font1: 'Young Serif', serif;
+    --font2: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    width: 375px;
+    margin: 0 auto;
+    background-color: var(--cor2-RoseWhite);
+}
+
+.conteudo{
+    margin: 0 30px;
+}
+
+.header-foto img{
+    width: 100%;
+}
+
+
+
+.omelette h1{
+    font-family: var(--font1);
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+
+.omelette p{
+    font-family: var(--font2);
+    font-weight: 400;
+    text-align: start;
+    margin-bottom: 50px;
+}
+
+
+.preparacao h3{
+    font-family: var(--font2);
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+    margin-left: 25px;
+}
+
+.preparacao ul{
+    margin: 0 10px;
+    padding-bottom: 20px;
+}
+
+.preparacao ul li, strong{
+    font-family: var(--font2);
+    color: var(--cor5-Wenge-Brown);
+}
+
+.preparacao ul li{
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* ingredientes */
+
+.ingredientes ul{
+    list-style: disc;
+    padding-left: 25px;
+}
+
+.ingredientes li{
+    padding-left: 12px;
+    font-family: var(--font2);
+    font-weight: 400;
+    color: var(--cor5-Wenge-Brown);
+    margin-bottom: 10px;
+}
+
+/* Instrucoes */
+
+hr{
+    opacity: 0.4;
+    margin: 30px 0px;
+}
+
+.instrucao ol{
+    padding-left: 20px;
+}
+
+.instrucao ol li p{
+    padding-left: 15px;
+    font-family: var(--font2);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.instrucao ol li{
+    font-weight: bold;
+}
+
+.instrucao ol strong, li{
+    color: var(--cor5-Wenge-Brown);
+    margin-bottom: 10px;
+}
+
+/* nutricao */
+
+.nutricao p{
+    font-family: var(--font2);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor5-Wenge-Brown);
+    padding-bottom: 20px;
+}
+
+
+.table{
+    margin-bottom: 100px;
+}
+
+
+.nutricao .table p{ 
+    position: relative;
+    padding-left: 25px;
+    margin: 5px;
+    font-family: var(--font2);
+    font-weight: 400;
+}
+
+.nutricao .table p strong{
+    position: absolute;
+    left: 52%;
+    font-family: var(--font2);
+    color: hsl(14, 45%, 36%);
+}
+
+.nutricao .table hr{
+    margin: -10px 0px 10px 0px;
+}
+
+
+
+
+
+
+
+h2{
+    font-family: var(--font1);
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width:375px){
+    body{
+        background-color: antiquewhite;
+    }
+} */
