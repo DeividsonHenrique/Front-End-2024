@@ -17,6 +17,7 @@
 
 body{
     background-color: white;
+    margin-top: 50px;
 }
 
 .container{
@@ -107,10 +108,12 @@ hr{
 }
 
 .instrucao ol li{
-    font-weight: bold;
+    font-family: var(--font2);
+    font-weight: bolder;
+    color: var(--cor5-Wenge-Brown);
 }
 
-.instrucao ol strong, li{
+.instrucao ol strong, p{
     color: var(--cor5-Wenge-Brown);
     margin-bottom: 10px;
 }
@@ -152,17 +155,46 @@ hr{
 
 
 
-
-
-
-
 h2{
     font-family: var(--font1);
     font-weight: 400;
     color: hsl(14, 45%, 36%);
 }
 
+@media (min-width:800px){
+    body{
+        background-color: var(--cor3-Eggshell);
+    }
 
+    .container{
+        width: 700px;
+        margin: 0 auto;
+        background-color: var(--cor2-RoseWhite);
+        border-radius: 20px;
+        
+    }
+
+
+    .header-foto img{
+       width: 90%;
+       margin-left: 35px;
+       margin-top: 30px;
+       border-radius: 20px;
+    }
+
+    .conteudo{
+        padding-left: 10px;
+    }
+
+    .nutricao .table p strong{
+        left: 54%;
+    }
+
+    br{
+        display: none;
+    }
+
+}
 
 
 
