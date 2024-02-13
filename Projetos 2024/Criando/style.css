@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+body{
+    width: 100%;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    clear: both;
+}
+
+.slide-background{
+    width: 100%;
+    height: 500px;
+    background: url(https://images8.alphacoders.com/134/1347727.png);
+    background-position: center calc(30%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slideBackground 25s infinite ;
+}
+
+@keyframes slideBackground{
+      10%{
+        background-image: url(https://images8.alphacoders.com/134/1347727.png); /* Primeira imagem de fundo */
+      }
+      25% {
+        background-image: url(https://images3.alphacoders.com/134/1342491.png); /* Segunda imagem de fundo */
+        
+      }
+      50% {
+        background-image: url(https://images3.alphacoders.com/595/595064.jpg); /* Terceira imagem de fundo */
+      }
+      75% {
+        background-image: url(https://images4.alphacoders.com/134/1341445.png); /* Quarta imagem de fundo */
+      }
+      90%{
+        background-image: url(https://images3.alphacoders.com/133/1337500.png);
+      }
+}
+
+header .logo{
+    background-color: lightgreen;
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 20px 0px 0px 200px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+
+header .busca{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 660px;
+    top: 150px;
+}
+
+.busca h2{
+    color: white;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+
+.busca input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+
+
+
+
+
+.tendencia{
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tendencia p{
+    display: inline;
+    color: rgba(255, 255, 255, 0.521);
+    font-weight: 600;
+}
+
+.tendencia a{
+    color: white;
+    font-weight: 600;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+
+
+
+header ul.nav{
+    float: right;
+    width: 650px;
+    list-style: none;
+    margin-top: 40px;
+}
+
+header ul.nav li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: all .2s ease-in-out;
+}
+
+header a:hover{
+    opacity: 0.7;
+}
+
+.logo:hover, .footer .logo-footer:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px lightgreen;
+    cursor: pointer;
+}
+
+
+
+.caixa{
+    width: 100%;    
+}
+
+.caixa h1{
+    margin: 40px 0px 20px 20px;
+    font-size: 1.6em;
+}
+
+.conteudo{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.fotos{
+    columns: 3;
+    column-gap: 20px;
+    margin: 10px;
+}
+
+.fotos img{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 60px;
+    color: #383838;
+    font-size: 1.3em;
+}
+
+.footer .logo-footer{
+    background-color: lightgreen;
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: -35px 0px 0px 150px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+
+.rodape{
+    float: right;
+    margin-right: 50px;
+    margin-top: -10px;
+}
+
+.rodape a{
+    position: relative;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    transition: .2s ease-in-out;
+    font-size: 1.1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.rodape a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    background-color: #383838;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform .1s ease-in-out;
+}
+
+.rodape a:hover::before{
+    transform: scaleX(1);
+}
+
+.rodape a i{
+    margin: 5px;
+}
+
+.rodape a:hover{
+    color: #383838;
+}
+
