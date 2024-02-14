@@ -26,6 +26,7 @@ body{
     background-color: white;
     border-radius: 10px;
     box-shadow: 8px 8px 0px 1px black;
+    transition: all .3s ease-in-out;
 }
 
 .ilustra{
@@ -34,6 +35,7 @@ body{
     margin-bottom: 5px;
     width: 300px;
     height: 201px;
+    transition: all .3s ease-in-out;
 }
 
 .ilustra img{
@@ -45,6 +47,7 @@ body{
 .blog{
     width: 300px;
     margin: 0 auto;
+    transition: all .3s ease-in-out;
 }
 
 .blog h3{
@@ -67,6 +70,7 @@ body{
 
 .blog h2{
     font-size: 1.2em;
+    cursor: pointer;
 }
 
 .blog p{
@@ -105,14 +109,17 @@ body{
     .box{
         width: 375px;
         height: 500px;
+        transition: all .3s ease-in-out;
     }
 
     .ilustra{
         width: 330px;
+        transition: all .3s ease-in-out;
     }
 
     .blog{
         width: 330px;
+        transition: all .3s ease-in-out;
     }
 
     .blog h3{
@@ -121,6 +128,7 @@ body{
 
     .blog h2{
         cursor: pointer;
+        transition:all .15s ease-in-out;
     }
 
     .box:hover{
