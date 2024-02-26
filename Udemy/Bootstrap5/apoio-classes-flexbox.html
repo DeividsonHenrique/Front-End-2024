@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - Classes flexbox</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .caixa{
+            background: #f0e8e8;
+            height: 200px;
+        }
+
+        .item{
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body style="margin-bottom: 200px;padding: 16px;">
+
+
+        <div class="container">
+    
+          <h2>Flex container e flex itens (d-flex, flex-row, flex-column, flex-row-reverse)</h2>
+          <div class="caixa d-flex flex-row-reverse">
+            <div class="item">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+          </div>
+          <br><br>
+    
+          <h2>Alinhamento horizontal: justify-content-ALINHAMENTO (start, center, end, around e between)</h2>
+          <div class="caixa d-flex justify-content-around">
+            <div class="item">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+          </div>
+          <br><br>
+    
+          <h2>Colunas (d-flex, flex-column, flex-column-reverse)</h2>
+          <div class="caixa d-flex flex-column-reverse">
+            <div class="item">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+          </div>
+          <br><br>
+    
+          <h2>Alinhamento vertical: align-items-ALINHAMENTO (start, center, end, baseline e stretch)</h2>
+          <div class="caixa d-flex align-items-center justify-content-around">
+            <div class="item">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+          </div>
+          <br><br>
+    
+          <h2>Alinhamento self: align-self-ALINHAMENTO (start, center, end, baseline e stretch)</h2>
+          <div class="caixa d-flex">
+            <div class="item align-self-start">Flex item 1</div>
+            <div class="item align-self-center">Flex item 2</div>
+            <div class="item align-self-end">Flex item 3</div>
+            <div class="item align-self-baseline">Flex item 4</div>
+            <div class="item align-self-stretch">Flex item 5</div>
+          </div>
+          <br><br>
+    
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
