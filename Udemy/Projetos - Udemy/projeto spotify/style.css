@@ -1,0 +1,168 @@
+
+
+
+
+html, body, #home{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+body{
+    background: url(imagens/capa.png), url(imagens/ruido.png), linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.navbar-transparente{
+    padding: 15px 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler{
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.4);
+}
+
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+.capa{
+    text-align: center;
+}
+
+#home .btn-custom{
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+#home .btn-roxo{
+    background: #7c26f8;
+}
+
+#home .btn-roxo:hover{
+    background: #6207e3;
+}
+
+#home .btn-branco{
+    border: 2px solid white;
+}
+
+#home .btn-branco:hover{
+    background-color: white;
+    color: black;
+}
+
+.caixa{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos{
+    background: white;
+}
+
+.albuns{
+    padding: 10px 0;
+}
+
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+#servicos h2, #servicos h3{
+    color: #7c26f8;
+}
+
+#home h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+
+#servicos h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#servicos h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#recursos{
+    color: white;
+}
+
+#recursos h2{
+    color: white;
+}
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+@media (max-width: 576px){
+
+    
+    #home .btn-custom{
+        margin: 10px 15px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #home h1{
+        font-size: 3em;
+    }
+
+    #home .btn-custom{
+        margin: 10px 15px;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width:768px) and (max-width: 991.98px) { 
+    #home h1{
+        font-size: 3em;
+    }
+    
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #home h1{
+        font-size: 4em;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #home h1{
+        font-size: 5em;
+    }
+}
