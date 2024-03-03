@@ -122,6 +122,42 @@ nav.navbar-transparente{
 }
 
 
+#rodape{
+    background: black;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+#rodape h4{
+    color: #919496;
+    font-size: .8em;
+    text-transform: uppercase;
+}
+
+#rodape .navbar-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: .8em;
+}
+
+#rodape .navbar-nav a:hover{
+    color: #9bf0e1;
+}
+
+#rodape ul{
+    list-style: none;
+}
+
+#rodape ul li{
+    float: right;
+    margin: 0 5px;
+}
+
+
+.fa-angle-right, .fa-angle-left{
+    width: 5%;
+    list-style: none;
+}
 
 /* X-Small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
@@ -131,6 +167,15 @@ nav.navbar-transparente{
     
     #home .btn-custom{
         margin: 10px 15px;
+        font-size: 1em;
+    }
+
+    #rodape h4{
+        margin: 20px 0px 5px 0px;
+    }
+
+    #rodape .imagem{
+        width: 70%;
     }
 }
 
@@ -143,12 +188,24 @@ nav.navbar-transparente{
     #home .btn-custom{
         margin: 10px 15px;
     }
+
+    #rodape h4{
+        margin: 20px 0 5px 0px;
+    }
+
+    #rodape .imagem{
+        width: 80%;
+    }
  }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width:768px) and (max-width: 991.98px) { 
     #home h1{
         font-size: 3em;
+    }
+
+    #rodape .imagem{
+        width: 90%;
     }
     
  }
@@ -157,6 +214,10 @@ nav.navbar-transparente{
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     #home h1{
         font-size: 4em;
+    }
+
+    #rodape .imagem{
+        width: 100%;
     }
  }
 
