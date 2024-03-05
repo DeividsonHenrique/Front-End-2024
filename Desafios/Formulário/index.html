@@ -40,24 +40,67 @@
             <div class="formulario"> <!-- Início do formuário -->
                 <form action="">
 
-                    <label for="name">Name</label> <br>
-                    <input type="text" id="name" placeholder="Enter your name">
+                    <label for="name"></label><span>Name</span> <br>    
+                    <input type="text" id="name" placeholder="Enter your name"><br>
 
-                    <label for="email">Email</label> <br>
-                    <input type="text" id="email" placeholder="Enter your Email">
 
-                    <label for="age">Age <span>(Opitional)</span></label><br>
-                    <input type="text" id="age" placeholder="Age">
+                    <label for="email"></label><span>Email</span> <br>
+                    <input type="text" id="email" placeholder="Enter your Email"><br>
 
-                    <label for="desc">Which option best describes your current role?</label>
-                    <input type="text" name="desc" id="desc" placeholder="Select current role"><br>
 
-                    <p>Would you recommend freeCodeCamp to a friend?</p>
-                    <label for="rec"><input type="radio" name="rec" value="Definitely"><span>Definitely</span></label><br>
+                    <label for="age"></label><span>Age <span class="opt">(Opitional)</span></span><br>
+                    <input type="text" id="age" placeholder="Age"><br>
 
-                    <label for="rec"><input type="radio" name="rec" value="Maybe"><span>Maybe</span></label><br>
+                    <span>Which option best describes your current role?</span>
+                    <select id="desc" name="Select current role">  
+                        <option value="select" disabled selected>Select current role</option>
+                        <option value="option1">Student</option>
+                        <option value="option2">Full time job</option>
+                        <option value="option3">Full time learner</option>
+                        <option value="option4">Prefer not to say</option>
+                        <option value="option5">other</option>
+                    </select><br>
 
-                    <label for="rec"><input type="radio" name="rec" value="Not sure"><span>Not&nbsp;sure</span></label><br>    
+                    
+                    <span class="wrff">Would you recommend freeCodeCamp to a friend?</span><br>
+                    <label for="rec1"><input type="radio" name="rec" id="rec1" value="Definitely">Definitely</label><br>
+                    <label for="rec2"><input type="radio" name="rec" id="rec2" value="Maybe">Maybe</label><br>
+                    <label for="rec3"><input type="radio" name="rec" id="rec3" value="notsure">Not sure</label><br>
+
+                    
+
+                    <span class="wfff">What is your favorite feature of freeCodeCamp?</span><br>
+                    <select id="fav" name="Select an option" value="select an option">  
+                        <option value="select" disabled selected>Select an option</option>
+                        <option value="option1">Challenges</option>
+                        <option value="option2">Projects</option>
+                        <option value="option3">Community</option>
+                        <option value="option4">Opens Source</option>
+                    </select><br>
+
+
+
+                    <span>What would you like to see improved? <span class="cata">(Check all that apply)</span></span><br>
+                        <label for="check1"><input id="check1" type="checkbox">Front-end Projects</label><br>
+                        <label for="check2"><input id="check2" type="checkbox">Back-end Projects</label><br>
+                        <label for="check3"><input id="check3" type="checkbox">Data Visualization</label><br>
+                        <label for="check4"><input id="check4" type="checkbox">Challenges</label><br>
+                        <label for="check5"><input id="check5" type="checkbox">Open Source Community</label><br>
+                        <label for="check6"><input id="check6" type="checkbox">Gitter help rooms</label><br>
+                        <label for="check7"><input id="check7" type="checkbox">Videos</label><br>
+                        <label for="check8"><input id="check8" type="checkbox">City Meetups</label><br>
+                        <label for="check9"><input id="check9" type="checkbox">Wiki</label><br>
+                        <label for="check10"><input id="check10" type="checkbox">Forum</label><br>
+                        <label for="check11"><input id="check11" type="checkbox">Additional Courses</label><br><br>
+
+
+                    <span>Any comments or suggestions?</span><br>
+                    <textarea name="cmnt" id="cmnt" cols="100" rows="7" placeholder="Enter your comment here..."></textarea><br>
+
+
+                    <button>Submit</button>
+
+                    
                 </form> 
             </div> <!-- Fim do Formulário -->
         </div> <!-- Fim da caixa -->
