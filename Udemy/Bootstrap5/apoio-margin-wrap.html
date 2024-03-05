@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - Margin Wrap</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .caixa{
+            background: #f0e8e8;
+            height: 200px;
+        }
+
+        .item{
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body style="margin-bottom: 200px;padding: 16px;">
+
+        <div class="container">
+    
+          <h2>Margin right/left auto (mr-auto, ml-auto)</h2>
+          <div class="caixa d-flex">
+            <div class="item ms-auto me-auto">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+          </div>
+          <br><br>
+    
+          <h2>Margin bottom/top auto (mt-auto, mb-auto)</h2>
+          <div class="caixa d-flex flex-column">
+            <div class="item mt-auto mb-auto">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+          </div>
+          <br><br>
+    
+          <h2>Wrap (flex-wrap, flex-nowrape)</h2>
+          <div class="caixa d-flex flex-nowrap">
+            <div class="item">Flex item 1</div>
+            <div class="item">Flex item 2</div>
+            <div class="item">Flex item 3</div>
+            <div class="item">Flex item 4</div>
+            <div class="item">Flex item 5</div>
+            <div class="item">Flex item 6</div>
+            <div class="item">Flex item 7</div>
+            <div class="item">Flex item 8</div>
+
+            <div class="item">Flex item 9</div>
+            <div class="item">Flex item 10</div>
+            <div class="item">Flex item 11</div>
+            <div class="item">Flex item 12</div>
+            <div class="item">Flex item 13</div>
+            <div class="item">Flex item 14</div>
+            <div class="item">Flex item 15</div>
+          </div>
+          <br><br>
+    
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
