@@ -6,11 +6,14 @@ body, html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*  ----------------------início do header-----------------------------*/
+
 header{
     min-height: 450px;
     position: relative;
     text-align: center;
     margin-top: -24px;
+    background-color: #3333339a;
 }
 
 header .bg-image{
@@ -53,8 +56,13 @@ header .content-header a:hover{
     color: black;
 }
 
+/*  -----------------------------------Fim do Header-----------------------------------------*/
+
+/*  -------------------------------Section A-------------------------------  */
+
 main#main{
     display: block;
+    background-color: #eaeaea;
 }
 
 #main .section-a{
@@ -62,6 +70,7 @@ main#main{
     margin: 0 auto;
     text-align: center;
     padding-bottom: 2em;
+    padding-top: 1px;
 }
 
 
@@ -88,3 +97,133 @@ main#main{
 }
 
 
+/*  -------------------------------Section B-------------------------------  */
+
+
+.section-b{
+    background-color: #333;
+    margin-top: 20px;
+    height: 570px;
+}
+
+.section-b ul{
+    display: flex;
+    justify-content: space-around;
+    width: 880px;
+    height: 517px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+.section-b ul li{
+    display: list-item;
+    width: 273px;
+    height: 500px;
+    background-color: white;
+}
+
+.card img{
+    width: 273px;
+    height: 181px;
+}
+
+.card .card-content h2, p{
+    text-align: center;
+}
+
+.card-content h2{
+    font-size: 1.29em;
+    padding: 1.46em 0 1.2em 0;
+}
+
+.card-content p{
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding: 0em 1.3em;
+}
+
+/*  -------------------------------Section C-------------------------------  */
+
+
+.section-c{
+    width: 880px;
+    margin: 0 auto;
+    padding: 2.2em 0;
+    margin-bottom: -20px;
+}
+
+.section-c h2{
+    margin-bottom: .87em;
+}
+
+.section-c p{
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-bottom: 2.09em;
+}
+
+/*  -------------------------------Section D-------------------------------  */
+
+.section-d{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: aqua;
+    height: 310px;
+    margin-top: .1em;
+}
+
+.section-d .box{
+    margin: 0 auto;
+    width: 759.7px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.section-d .box h2{
+    font-size: 1.65em;
+    padding: 1.65em 0 1em 0;
+}
+
+.section-d .box p{
+    font-size: 1.1em;
+    margin: 0 1.5em;
+    line-height: 1.5em;
+}
+
+.section-d .box p.contact{
+    margin: 2em 0;
+}
+
+.section-d .box:first-child{
+    background-color: #2690d4;
+}
+
+
+/*  -------------------------------Footer-------------------------------  */
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 97px;
+    background-color: black;
+    color: white;
+}
+
+footer div{
+    width: 492px;
+    font-size: 1.1em;
+    height: 26px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 39px;
+    text-indent: 35px;
+}
+
+footer div a{
+    padding-right: 4em;
+    text-decoration: none;
+    color: #2690d4;
+}
