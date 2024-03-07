@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.pg1, .pg4{
+    position: relative;
+    background: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.70;
+    height: 100%;
+}
+
+
+.sc1, .sc2, .sc3{
+    width: 1359px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    margin-top: 65px;
+}
+
+.sc2, .sc3{
+    width: 100%;
+    height: 328px;
+    background-color: #282e34;
+    margin-top: -21px;
+    
+}
+
+.sc1 h2{
+    font-size: 1.6em;  
+    font-weight: bold;
+    font-style: normal;
+    color: #666;
+}
+
+.sc1 p{
+    line-height: 1.8em;
+    color: #666;
+    font-size: 1em;
+}
+
+.sc2 h2, .sc3 h2{
+    font-size: 1.6em;  
+    font-weight: bold;
+    font-style: normal;
+    color: #dddddd;
+    padding-top: 50px;
+}
+
+.sc2 p, .sc3 p{
+    line-height: 1.8em;
+    color: #dddddd;
+    font-size: 1em;
+    width: 1359px;
+    margin: 0 auto;
+    height: 86.4px;
+}
+
+
+.pg2{
+    background: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.70;
+    height: 400px;
+}
+
+.pg3{
+    background: url(https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.70;
+    height: 400px;
+}
+
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #111111;
+    font-size: 27px;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+    display: inline;
+    margin-top: 14px;
+}
+
+.pg2, .pg3{
+    position: relative;
+}
+
+.pgtext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 27px;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+    display: inline;
+    margin-top: 14px;
+}

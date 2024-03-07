@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    min-height: 450px;
+    position: relative;
+    text-align: center;
+    margin-top: -24px;
+}
+
+header .bg-image{
+    position: absolute;
+    background: #333 url("https://static.pexels.com/photos/248515/pexels-photo-248515.png") no-repeat center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    z-index: -1;
+}
+
+header .content-header{
+    color: white;
+}
+
+header .content-header h1{
+    padding-top: 106px;
+    padding-bottom: 1px;
+    font-size: 2.2em;
+}
+
+header .content-header p{
+    font-size: 1.1em;
+    line-height: 26px;
+    padding-bottom: 1.8em;
+}
+
+header .content-header a{
+    background-color: #333;
+    font-size: 1.1em;
+    color: white;
+    padding: 1.15em 2em;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.427);    
+    outline: none;
+}
+
+header .content-header a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+main#main{
+    display: block;
+}
+
+#main .section-a{
+    width: 828px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+
+.section-a .content-text1{
+    columns: 2;
+    column-gap: 37px;
+    padding: 0;
+}
+
+.content-text1 p{
+    display: block;
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+
+.content1 h2{
+    text-align: center;
+    display: block;
+    font-size: 1.65em;
+    padding: 1em 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
