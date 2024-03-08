@@ -1,0 +1,131 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://images6.alphacoders.com/134/1347226.png) no-repeat center center;
+    background-size: cover;
+}
+
+.box{
+    height: 450px;
+    width: 400px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.200);
+}
+
+.box h2{
+    text-align: center;
+    margin: 1em 0;
+    font-size: 2.3em;
+    color: white;
+}
+
+form{
+    height: 320px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.input label{
+    position: relative;
+}
+
+.input input{
+    display: block;
+    width: 343px;
+    height: 40px;
+    margin-bottom: 2.5em;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: normal;
+    text-indent: 20px;
+    font-size: 1em;
+}
+
+input[type="checkbox"]{
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+::placeholder{
+    color: white;
+}
+
+.input i{
+    position: absolute;
+    color: white;
+    right: 20px;
+    top: 15px;
+}
+
+
+.pass input, span{
+    display: inline;
+    float: left;
+    color: white;
+}
+
+
+.pass a{
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+
+.pass a:hover, .acc a:hover{
+    text-decoration: underline gray;
+}
+
+button{
+    display: block;
+    margin: 1.5em auto;
+    height: 40px;
+    width: 85%;
+    color: black;
+    font-size: 1em;
+    font-weight: bolder;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    transition: .2s ease-in-out;
+}
+
+button:hover{
+    color: white;
+    background-color: #767676;
+}
+
+.acc{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.acc span{
+    font-weight: lighter;
+    font-size: .9em;
+}
+
+.acc a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
