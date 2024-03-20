@@ -1,0 +1,280 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: -16px;
+}
+
+
+header{
+    width: 100%;
+    height: 110px;
+    background-color: #333;
+    position: relative;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.logo{
+    background-image: url(https://www.lamborghini.com/sites/it-en/files/themes/custom/lambo_facelift_2019/images/logo.png);
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 3.7em;
+    top: 2em;
+}
+
+.content-1{
+    float: left;
+    margin-top: 35px;
+    margin-left: 140px;
+    font-size: 1em;
+}
+
+.content-2{
+    float: right;
+    margin-top: 35px;
+    margin-right: 50px;
+}
+
+
+
+ul{
+    float: left;
+}
+
+li{
+    float: left;
+    list-style: none;
+}
+
+.nav-1{
+    margin-left: -20px;
+}
+
+.nav-1 ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+
+
+.nav-2 ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.ul-1 li a i{
+    transform: scale(1.4);
+}
+
+/*        fim do header          */
+
+.slider{
+    width: 100%;
+    height: 102vh;
+    overflow: hidden;
+}
+
+
+.slides{
+    width:100%;
+    height: 100vh;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 100%;
+    position: relative;
+    transition: ease-in-out 1s;
+}
+
+
+.slide img{
+    width: 100vw;
+}
+
+
+
+.manual-navgation{
+    position: absolute;
+    width: 20%;
+    top: 50%;
+    left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.manual-btn{
+    border: 2px solid #333;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .6s;
+    margin-left: 20px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+.manual-btn:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -100%;
+}
+#radio3:checked ~ .first{
+    margin-left: -200%;
+}
+#radio4:checked ~ .first{
+    margin-left: -300%;
+}
+
+
+.navgation-auto div{
+    border: 2px solid #333;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 40px;
+    width: 100px;
+    transition: .6s;
+}
+
+.navgation-auto{
+    position: absolute;
+    width: 20%;
+    top: 50%;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#radio1:checked ~ .navgation-auto .auto-btn1{
+    background-color: #333;
+}
+#radio2:checked ~ .navgation-auto .auto-btn2{
+    background-color: #333;
+}
+#radio3:checked ~ .navgation-auto .auto-btn3{
+    background-color: #333;
+}
+#radio4:checked ~ .navgation-auto .auto-btn4{
+    background-color: #333;
+}
+
+
+/* fim das imagens */
+
+
+.sobre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.900);
+}
+
+div.cards{
+    position: relative;
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cards h2{
+    font-family: "Pirata One", system-ui;
+    text-align: center;
+    font-weight: 300;
+    font-size: 3em;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 1px 1px 5px goldenrod;
+}
+
+.desc{
+    position: relative;
+    height: 300px;
+    width: 430px;
+    overflow: hidden;
+    margin: 0px 20px 0px 10px;
+    float: left;
+}
+
+.desc img{
+    position: absolute;
+    bottom: -50%;
+    right: -5%;
+}
+
+.desc1{
+    position: absolute;
+    float: right;
+    height: 300px;
+    width: 460px;
+    top: 25%;
+    right: -1%;
+    margin: 0px 20px 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+p{
+    font-size: 1.4em;
+    padding: 10px 20px;
+    font-variant: small-caps;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    text-indent: 30px;
+    text-align: start;
+    letter-spacing: 1px;
+}
+
+.urus img{
+    left: -23%;
+    top: -10%;
+    width: 600px;
+}
+
+.urus p{
+    font-size: 1.3em;
+}
+
+.veneno img{
+    width: 800px;
+    top: -50%;
+    left: -60%;
+}
+
+.veneno p{
+    font-size: 1.3em;
+}
