@@ -247,7 +247,7 @@ div.cards{
     align-items: center;
 }
 
-p{
+.sobre p{
     font-size: 1.4em;
     padding: 10px 20px;
     font-variant: small-caps;
@@ -277,4 +277,125 @@ p{
 
 .veneno p{
     font-size: 1.3em;
+}
+
+
+/*       Fim da section sobre      */
+
+
+
+
+section.news{
+    width: 1270px;
+    margin: 0 auto;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+section.news img{
+    width: 1270px;
+    height: 550px;
+    display: block;
+}
+
+h2.h2-news{
+    font-size: 2em;
+    margin-top: 80px;
+}
+
+.news h1{
+    font-size: 8em;
+    margin: -15px 0px 20px 0px;
+}
+
+
+.news span{
+    display: block;
+    margin: 50px 0px 20px 0px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.news button{
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    margin-left: 5px;
+    padding: 5px 10px;
+    transition: background .3s;
+    cursor: pointer;
+    display: block;
+    margin-bottom: -20px;
+}
+
+.news button:hover{
+    background-color: #333;
+    color: white;
+}
+
+.news h3{
+    width: 820px;
+    float: left;
+    font-size: 2.3em;
+    margin-bottom: 0px;
+}
+
+.news a.h3-read, a.read{
+    float: right;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    width: 210px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    transition: background .4s;
+}
+
+.news a.h3-read:hover, a.read:hover{
+    color: white;
+    background-color: #333;
+}
+
+.news p.year{
+    color: rgba(0, 0, 0, 0.541);
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+
+
+.card-img{
+    background-color: red;
+    margin: 30px 0px;
+    width: 630px;
+    height: 250px;
+    float: left;
+    overflow: hidden;
+}
+
+.card-img img{
+    max-width: 630px;
+    max-height: 250px;
+}
+
+.card-info{
+    margin: 30px 0px;
+    height: 250px;
+    width: 600px;
+    float: right;
+}
+
+.card-info p{
+    margin: 0px;
+    margin-bottom: 50px;
+    font-size: 1em;
+    color: gray;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.card .read{
+    float: left;
 }
