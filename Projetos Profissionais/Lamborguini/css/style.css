@@ -327,6 +327,7 @@ h2.h2-news{
     margin-bottom: -20px;
 }
 
+
 .news button:hover{
     background-color: #333;
     color: white;
@@ -339,7 +340,7 @@ h2.h2-news{
     margin-bottom: 0px;
 }
 
-.news a.h3-read, a.read{
+.news a.h3-read, a.read, button.all{
     float: right;
     text-decoration: none;
     color: black;
@@ -373,6 +374,7 @@ h2.h2-news{
     height: 250px;
     float: left;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .card-img img{
@@ -398,4 +400,69 @@ h2.h2-news{
 
 .card .read{
     float: left;
+}
+
+.card a.event{
+    text-decoration: none;
+    color: black;
+    padding: 5px 0px;
+    transition: ease .3s;
+    margin-bottom: -20px;
+    margin-top: 30px;
+    display: block;
+    width: 70px;
+    text-align: center;
+}
+
+.card a.event:hover{
+    background-color: #333;
+    color: white;
+}
+
+.card h2{
+    font-size: 2.1em;
+    width: 450px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+/* .c1 h2{
+    margin-top: 0px;
+} */
+
+.c1 a.read{
+    margin-top: 30px;
+}
+
+.c1 p{
+    margin-bottom: 20px;
+}
+
+.more{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+button.all{
+    background-color: #333;
+    color: white;
+    float: none;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+    font-size: 1em;
+}
+
+button.all:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 49.4vh;
+    background-color: #181818;
 }
