@@ -13,10 +13,14 @@ body{
 header{
     width: 100%;
     height: 110px;
-    background-color: #333;
+    background-color: #181818;
     position: relative;
     position: fixed;
     z-index: 1;
+}
+
+.hidden{
+    opacity: 0;
 }
 
 
@@ -67,6 +71,7 @@ li{
     font-weight: 300;
     font-size: 1.1em;
     text-transform: uppercase;
+    position: relative;
 }
 
 
@@ -79,6 +84,7 @@ li{
     font-weight: 300;
     font-size: 1.1em;
     text-transform: uppercase;
+    position: relative;
 }
 
 .ul-1 li a i{
@@ -465,4 +471,112 @@ footer{
     width: 100%;
     height: 49.4vh;
     background-color: #181818;
+}
+
+.footer{
+    max-width: 82%;
+    margin: 0 auto;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+.nav-footer{
+    float: left;
+    width: 70%;
+    margin-top: 4em;
+}
+
+.icons-footer{
+    float: right;
+    height: 80px;
+    margin-top: 4em;
+}
+
+.nav-footer a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.15em;
+    margin-right: 25px;
+    line-height: 30px;
+    position: relative;
+}
+
+
+
+.icons-footer a{
+    color: white;
+    font-size: 1.18em;
+    margin: 0px 7.4px;
+}
+
+
+.ref{
+    max-width: 82%;
+    margin: 0 auto;
+}
+
+.ref p{
+    color: white;
+}
+
+p.web{
+    position: relative;
+    font-size: .95em;
+    line-height: 30px;
+    margin-left: 15px;
+}
+
+p.web span{
+    position: absolute;
+    left: -15px;
+    cursor: context-menu;
+}
+
+p.copy{
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 27px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+.fixed{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+p.footer-fixed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 17.3px;
+    height: 0px;
+    margin: 15px;
+}
+
+
+/*     Efeitos hover underline */
+
+.nav-footer a::before, .nav-1 a::before, .nav-2 a::before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    transform-origin: left;
+    transition-duration: .4s;
+    transform: scaleX(0);
+}
+
+.nav-footer a:hover::before, .nav-1 a:hover::before, .nav-2 a:hover::before{
+    transform: scaleX(1);
+}
+
+.nav-2 .ul-1 a::before{
+    display: none;
 }
