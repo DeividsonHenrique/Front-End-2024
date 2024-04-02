@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Operadores Aritimeticos</title>
+    <style>
+        body{
+            background-color: #333;
+            color: white;
+        }
+    </style>
+
+    <script>
+        
+        let nome = prompt('Digite seu nome')
+        let altura = prompt('Digite sua altura em centímetros')
+        let peso = prompt('Digite seu peso')
+
+        altura = parseFloat(altura)
+        peso = parseFloat(peso)
+        altura = altura /= 100
+       
+        var imc = peso / (altura * altura)
+        
+
+        if (imc < 16){
+            document.write(`Baixo Peso muito grave. ${nome} seu indíce de massa é ${imc}`)
+
+        }else if ( imc > 16 && imc < 16.99){
+            document.write(`Baixo Peso grave. ${nome} seu indíce de massa é ${imc}`)
+
+        }else if ( imc > 17 && imc < 18.49){
+            document.write(`Baixo Peso. ${nome} seu indíce de massa é ${imc}`)
+
+        }else if ( imc > 18.50 && imc < 24.99){
+            document.write(`Peso normal. ${nome} seu indíce de massa é ${imc}`)
+
+        }else if ( imc > 25 && imc < 29.99){
+            document.write(`SobrePeso. ${nome} seu indíce de massa é ${imc}`)
+
+        }else if ( imc > 30 && imc < 34.99){
+            document.write(`Obesidade garu I. ${nome} seu indíce de massa é ${imc}`)
+
+        }else if ( imc > 35 && imc < 39.99){
+            document.write(`Obesidade garu II. ${nome} seu indíce de massa é ${imc}`)
+
+        }else{
+            document.write(`Obesidade garu III. ${nome} seu indíce de massa é ${imc}`)
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
