@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - BOM</title>
+    <style>
+        body{
+            background-color: #333;
+            color: white;
+        }
+    </style>
+    
+    <script>
+        var janela; // Declaração global da variável janela
+
+        function abrirPopUp() {
+            janela = window.open('https://github.com/DeividsonHenrique', 'nova_janela', 'width=500, height=500');
+            //não funcionou com o google.com
+        }
+
+        function fecharPopUp() {
+            janela.close();
+        }
+    </script>
+</head>
+<body>
+    <button onclick="abrirPopUp()">Abrir Janela</button>
+    <button onclick="fecharPopUp()">Fechar Janela</button>
+    <button onclick="window.print()">Imprimir página</button>
+</body>
+</html>

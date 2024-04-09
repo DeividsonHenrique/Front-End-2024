@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Tratamento de erros</title>
+    <style>
+        body{
+            background-color: #333;
+            color: white;
+        }
+    </style>
+    
+    <script>
+
+        
+
+        //netflix
+
+        let video = Array()
+
+        video[1] = Array()
+        video[1] ['Nome'] = 'Pokemon'
+        video[1] ['Categoria'] = 'anime'
+ 
+        function getVideo(video){
+            
+
+            try {
+                //logica
+                //http
+                console.log(video[0] ['nome'])
+            } catch(erro){
+                tartarErro(erro)
+                console.log('Agora sim podemos tratar esse erro')
+                throw new Error('Houve um erro mas não se preocupe estamos trabalhando nisso agora')
+            } finally{
+                console.log('Sempre passa por aqui (try / catch)')
+            }
+            
+
+            console.log('A aplicação não morreu')
+        }
+        function tartarErro(e){
+            //logica para registrar 
+            console.log(e)
+        }
+        
+        getVideo(video)
+
+
+        
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - BOM Screen</title>
+    <style>
+        body{
+            background-color: #333;
+            color: white;
+        }
+    </style>
+    
+    <script>
+        
+        //setTimeout(function(){ document.write('teste')}, 2000)
+
+        var i = 5
+
+        var x = setInterval(function(){ document.write(i)
+         i--
+
+         if(i === 0){
+            clearInterval(x)
+         }
+        }, 1000)
+
+    </script>
+</head>
+<body>
+</body>
+</html>
