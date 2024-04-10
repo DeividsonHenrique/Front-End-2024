@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript - Var e let</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        //escopos : global, função e global
+
+        let serie = 'Friends'
+
+        {
+            let serie = 'The Walking Dead'
+            console.log('Dentro do bloco ' + serie)
+        }
+
+        console.log('Fora do bloco ' + serie)
+
+
+
+        // if(true){
+        //     let serie = 'Friends'        
+        // }
+        //     console.log(serie)
+
+        // function x(){
+            
+        //     console.log('Dentro da Função ' + serie)
+
+        //     if(true){
+        //         var serie = 'the walking dead'
+        //     }
+        // }
+        // x()
+        // if(true){
+
+        //     console.log(serie)
+
+        //     }
+
+        //     console.log(serie)
+    </script>
+</head>
+<body>
+    <div id="output"></div>
+</body>
+</html>
