@@ -44,3 +44,5 @@ console.log(cadastro1.nome)
 console.log(cadastro1.idade)
 console.log(cadastro1.estado)
 
+
+
