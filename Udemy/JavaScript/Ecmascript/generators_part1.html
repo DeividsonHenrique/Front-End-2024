@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Ecmascript generators</title>
+</head>
+<body>
+    
+
+    <script>
+        function* testeGenerator(){
+            console.log('teste 1')
+            yield console.log('teste 2')
+            console.log('teste 3')
+
+            return 'teste 4'
+        }
+        
+        let meuGenerator = testeGenerator() //objeto iterator
+
+        // console.log(meuGenerator)
+
+        meuGenerator.next()
+        console.log('-----------')
+        meuGenerator.next()
+        console.log('-----------')
+        meuGenerator.next()
+        console.log('-----------')
+        console.log(meuGenerator.next())
+    </script>
+</body>
+</html>
