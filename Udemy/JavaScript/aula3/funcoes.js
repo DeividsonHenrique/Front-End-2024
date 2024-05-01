@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript - Funções</title>
-    <style>
-        body{
-            background-color: #333;
-            color: white;
-        }
-    </style>
-    
-    <script>
+
         
         //void
         //retorno
@@ -53,9 +40,3 @@
         return resultado
       }
       console.log(soma(7, 5, 3.2, 0.8, ' Texto '))
-    </script>
-</head>
-<body>
-    
-</body>
-</html>

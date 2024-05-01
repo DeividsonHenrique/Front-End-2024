@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript - Funções date</title>
-    <style>
-        body{
-            background-color: #333;
-            color: white;
-        }
-    </style>
-    
-    <script>
+
 
         //var data = new Date()
 
@@ -64,11 +51,3 @@
         document.write('<br><br><hr>')
 
         document.write('a diferença entre data1 e data2 é de ' + Math.ceil(Milissegundos_entre_datas / Milissegundos_por_dia) + ' dia(s)')
-
-    </script>
-
-</head>
-<body>
-    
-</body>
-</html>

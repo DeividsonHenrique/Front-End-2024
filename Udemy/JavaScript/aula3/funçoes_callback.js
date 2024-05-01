@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript - Funções callback</title>
-    <style>
-        body{
-            background-color: #333;
-            color: white;
-        }
-    </style>
-    
-    <script>
+
 
        function exebirArtigo(id, callbackSucesso, callbackErro){
         //logica: recuperar o id via requisição http
@@ -34,11 +21,3 @@
        }
 
        exebirArtigo(6, callbackSucesso, callbackErro)
-
-    </script>
-
-</head>
-<body>
-    
-</body>
-</html>

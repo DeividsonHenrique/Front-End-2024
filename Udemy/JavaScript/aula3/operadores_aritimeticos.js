@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript - Operadores Aritimeticos</title>
-    <style>
-        body{
-            background-color: #333;
-            color: white;
-        }
-    </style>
 
-    <script>
     var num1 = prompt('Digite o valor de num1')
     var num2 = prompt('Digite o valor de num2')
-    /*
+    
     num1 = parseInt(num1)
     num2 = parseInt(num2)
 
@@ -27,8 +14,8 @@
     document.write(`${num1} <br><br>`)
     document.write(`O Decremento de ${num2} é: ${--num2} <br><br>`)
    document.write(`${num2} <br><br>`)
-        */
-        /*
+        
+        
         var teste = 'olá '
 
         //teste = teste + 5
@@ -39,17 +26,10 @@
         //teste %= 3
         teste += 'Jorge'
         document.write(teste)
-        */
+        
 
         document.write((11 + 5 - 5 * 2) / 2)
 
         // () - aplicar precedência
         //em primeiro vem multiplicação e subtração
         //em segundo soma e subtração
-
-    </script>
-</head>
-<body>
-    
-</body>
-</html>

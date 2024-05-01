@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript</title>
-    <script>
+
         /*
         if(!(5 >= 2)){
             document.write('Verdadeiro')
@@ -33,15 +27,3 @@
 
         var resultado = (nota >= media && faltas <= faltas_maximas) ? 'Aprovado' : 'Reprovado' 
         document.write(resultado)
-    </script>
-    <style>
-        body{
-            background-color: #333;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-    
-</body>
-</html>
