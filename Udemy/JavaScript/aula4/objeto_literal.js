@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScrip - Operador Super</title>
-    
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-    <script type="text/babel">
-
         class Produto{
             constructor(descricao, preco){
                 this.descricao = descricao
@@ -36,12 +25,3 @@
         produtoLiteral.verDescricao()
 
         //------------------------------------------------------------
-
-        
-        
-    </script>
-</head>
-<body>
-    <div id="output"></div>
-</body>
-</html>

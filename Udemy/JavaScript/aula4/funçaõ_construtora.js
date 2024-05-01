@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScrip - Função construtora</title>
-    
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-    <script type="text/babel">
-
       let Carro = function(){
         this.cor = 'Amarelo'
         this.modelo = 'Chevette'
@@ -37,11 +26,3 @@
       console.log(`A velocidade atual é, ${carro.getVelocidadeAtual()}`) 
       carro.acelerar()
       console.log(`A velocidade atual é, ${carro.getVelocidadeAtual()}`) 
-
-
-    </script>
-</head>
-<body>
-    <div id="output"></div>
-</body>
-</html>

@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScrip - Objeto literal</title>
-    
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-    <script type="text/babel">
-
         let nome = 'Jorge'
         let idade = 29
         let sexo = 'Masculino'
@@ -41,9 +30,3 @@
         console.log(objeto2)
         objeto2.exibirResumo()
         
-    </script>
-</head>
-<body>
-    <div id="output"></div>
-</body>
-</html>

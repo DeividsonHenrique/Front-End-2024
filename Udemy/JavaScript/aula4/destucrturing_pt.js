@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScrip - destructuring</title>
-    
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-    <script type="text/babel">
-
         let produto = {
             descricao: 'Notebook',
             preco: 1800,
@@ -33,11 +22,3 @@
 
         let { detalhes: { fabricante: f, modelo = 'Não informado' } } = produto
         console.log(f, modelo)
-
-
-    </script>
-</head>
-<body>
-    <div id="output"></div>
-</body>
-</html>

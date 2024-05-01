@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScrip - Operador Super</title>
-    
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    <script type="text/babel">
 
         class Animal{
             constructor(cor, tamanho, peso){
@@ -54,10 +45,3 @@
 
         let papagaio2 = new Papagaio('Pequeno', false, 'Branco', 10, 80)
         console.log(papagaio2)
-        
-    </script>
-</head>
-<body>
-    <div id="output"></div>
-</body>
-</html>

@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScrip - rest and spred</title>
-    
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    <script type="text/babel">
 
         //contexto spred
 
@@ -29,9 +20,4 @@
         let clone = {endereco: 'Rua ABC', ...pessoa}
 
         console.log(clone)
-    </script>
-</head>
-<body>
-    <div id="output"></div>
-</body>
-</html>
+ 

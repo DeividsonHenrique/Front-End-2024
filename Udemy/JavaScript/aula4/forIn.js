@@ -1,18 +1,4 @@
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript - laços</title>
-    <style>
-        body{
-            background-color: #333;
-            color: white;
-        }
-    </style>
-    
-    <script>
 
         //var listaConvidados = ['Jorge','Jamilton','José','Ana', 'Maria']
 
@@ -27,11 +13,3 @@
         for(var x in listaConvidados){
             console.log('Indice ' + x + ' Valor ' +listaConvidados[x])
         }
-
-    </script>
-
-</head>
-<body>
-    
-</body>
-</html>

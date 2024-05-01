@@ -1,18 +1,4 @@
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript - For It</title>
-    <style>
-        body{
-            background-color: #333;
-            color: white;
-        }
-    </style>
-    
-    <script>
 
         //var listaFuncionarios = ['Viviane','Rosângela','Fernanda','Ana', 'Maria']
 
@@ -43,13 +29,3 @@
         
         // console.log(listaFuncionarios)
         // document.write('<br>' + listaFuncionarios[2])
-
-        
-
-    </script>
-
-</head>
-<body>
-    
-</body>
-</html>

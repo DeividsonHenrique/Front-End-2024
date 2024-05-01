@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScrip - rest and spred</title>
-    
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-    <script type="text/babel">
-
         //destructuring
 
         let frutas = ['Abacaxi', 'Uva','Pera','Mamão']
@@ -21,9 +10,3 @@
         let coisas = [['Abacaxi', 'Uva','Pera','Mamão'], ['José','Maria']]
         let [ [, f2], [, n2]] = coisas
         console.log(f2, n2)
-    </script>
-</head>
-<body>
-    <div id="output"></div>
-</body>
-</html>

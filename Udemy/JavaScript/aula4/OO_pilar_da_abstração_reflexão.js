@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScrip - orientação a objetos</title>
-    
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-    <script type="text/babel">
-
        //um software de marcenaria
        //cadeira e sofá
 
@@ -89,10 +78,3 @@
 
        console.log(cadeira)
        cadeira2.girarCadeira(2)
-
-    </script>
-</head>
-<body>
-    <div id="output"></div>
-</body>
-</html>
