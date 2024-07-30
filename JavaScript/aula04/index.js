@@ -45,7 +45,6 @@ let novosProdutos2 = produtos.slice(0, 3);
 
 produtos.length
 
-
 //spreed operator = copiar o array
 
 let novosProdutos3 = [...produtos, 'ovo', 'cafe', 'agua'];
