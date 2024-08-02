@@ -29,6 +29,7 @@ produtos.unshift('miojo', 'chocolate');
 
 produtos.shift();
 
+
 //remover de uma posição especifica do splice = remover
 
 produtos.splice(2, 1);
