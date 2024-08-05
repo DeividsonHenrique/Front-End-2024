@@ -29,13 +29,11 @@ produtos.unshift('miojo', 'chocolate');
 
 produtos.shift();
 
-
 //remover de uma posição especifica do splice = remover
 
 produtos.splice(2, 1);
 codigos.splice(2, 1);
 meses.splice(2, 1);
-
 
 //copiar o array = clone
 
