@@ -34,6 +34,7 @@ produtos.shift();
 produtos.splice(2, 1);
 codigos.splice(2, 1);
 meses.splice(2, 1);
+
 //copiar o array = clone
 
 let novosProdutos = produtos.slice();
