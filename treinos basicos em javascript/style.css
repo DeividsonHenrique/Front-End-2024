@@ -1,0 +1,76 @@
+body{
+    background-color: #181818;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+span{
+    color: white;
+}
+
+.id1{
+    background-color: #333;
+    height: 50px;
+    line-height: 50px;
+    width: 450px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+
+.id2{
+    width: 450px;
+    height: 50px;
+    background-color: #333;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+input:first-child{
+    margin-left: 30px;
+}
+
+input[type="number"]{
+    text-align: center;
+    width: 150px;
+}
+
+
+input[type="button"]{
+    height: 30px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.336);
+    cursor: pointer;
+    transition: .3s;
+}
+
+input[type="button"]:hover{
+    background-color: black;
+}
+
+section{
+    border: 1px solid yellow;
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+
